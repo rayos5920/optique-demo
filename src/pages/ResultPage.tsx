@@ -168,11 +168,11 @@ export const ResultPage: React.FC = () => {
         {/* Images Preview */}
         <div className="images-preview">
           <div className="preview-card">
-            <div className="preview-label">Original Image</div>
+            <div className="preview-label">1st Image</div>
             <img src={originalPreview} alt="Original" className="preview-img" />
           </div>
           <div className="preview-card">
-            <div className="preview-label">AI Generated Image</div>
+            <div className="preview-label">2nd Image</div>
             <img src={aiPreview} alt="AI Generated" className="preview-img" />
           </div>
         </div>
