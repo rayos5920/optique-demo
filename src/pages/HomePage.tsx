@@ -63,7 +63,7 @@ export const HomePage: React.FC = () => {
           <span className="gradient-text">Optique</span>
         </h1>
         <p className="hero-subtitle">
-          Advanced Image Similarity Detector • Compare & Detect AI-Generated Content
+          Advanced Image Similarity Detector
         </p>
       </div>
 
