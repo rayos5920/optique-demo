@@ -69,7 +69,7 @@ export const HomePage: React.FC = () => {
 
       <div className="upload-section">
         <ImageUploader
-          title="Original Image"
+          title="1st Image"
           subtitle="Upload the reference image"
           icon="🖼️"
           preview={originalPreview}
@@ -82,9 +82,9 @@ export const HomePage: React.FC = () => {
         </div>
         
         <ImageUploader
-          title="AI Generated Image"
+          title="2nd Image"
           subtitle="Upload the image to compare"
-          icon="🤖"
+          icon="🖼️"
           preview={aiPreview}
           onImageSelect={handleAiSelect}
           accentColor="#ec4899"
